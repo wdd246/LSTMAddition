@@ -41,6 +41,7 @@ synapse_1_update = np.zeros_like(synapse_1)
 synapse_h_update = np.zeros_like(synapse_h)
 
 # training logic
+# 10000 % 1000 (:119) = 10 iteration
 for j in range(10000):
 
     # generate a simple addition problem (a + b = c)
